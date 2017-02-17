@@ -12,6 +12,14 @@
 		C03A03A61E54E0AC00AE3DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03A03A41E54E0AC00AE3DFE /* Main.storyboard */; };
 		C03A03A81E54E0AC00AE3DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03A03A71E54E0AC00AE3DFE /* Assets.xcassets */; };
 		C03A03AB1E54E0AC00AE3DFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03A03A91E54E0AC00AE3DFE /* LaunchScreen.storyboard */; };
+		C03A03B31E54E15700AE3DFE /* View 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A03B21E54E15700AE3DFE /* View 2.swift */; };
+		C03A03B61E5657FD00AE3DFE /* zing-mp3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C03A03B51E5657FD00AE3DFE /* zing-mp3.jpg */; };
+		C03A03B81E56783400AE3DFE /* bg.JPG in Resources */ = {isa = PBXBuildFile; fileRef = C03A03B71E56783400AE3DFE /* bg.JPG */; };
+		C03A03BA1E567DEF00AE3DFE /* math.png in Resources */ = {isa = PBXBuildFile; fileRef = C03A03B91E567DEF00AE3DFE /* math.png */; };
+		C03A03BC1E5684C400AE3DFE /* View 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03A03BB1E5684C400AE3DFE /* View 3.swift */; };
+		C03A03FB1E56BC1800AE3DFE /* BG0.JPG in Resources */ = {isa = PBXBuildFile; fileRef = C03A03F81E56BC1800AE3DFE /* BG0.JPG */; };
+		C03A03FC1E56BC1800AE3DFE /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = C03A03F91E56BC1800AE3DFE /* board.png */; };
+		C03A03FD1E56BC1800AE3DFE /* ClipNote1.png in Resources */ = {isa = PBXBuildFile; fileRef = C03A03FA1E56BC1800AE3DFE /* ClipNote1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		C03A03A71E54E0AC00AE3DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C03A03AA1E54E0AC00AE3DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C03A03AC1E54E0AC00AE3DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C03A03B21E54E15700AE3DFE /* View 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View 2.swift"; sourceTree = "<group>"; };
+		C03A03B51E5657FD00AE3DFE /* zing-mp3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zing-mp3.jpg"; sourceTree = "<group>"; };
+		C03A03B71E56783400AE3DFE /* bg.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.JPG; sourceTree = "<group>"; };
+		C03A03B91E567DEF00AE3DFE /* math.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math.png; sourceTree = "<group>"; };
+		C03A03BB1E5684C400AE3DFE /* View 3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View 3.swift"; sourceTree = "<group>"; };
+		C03A03F81E56BC1800AE3DFE /* BG0.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BG0.JPG; sourceTree = "<group>"; };
+		C03A03F91E56BC1800AE3DFE /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		C03A03FA1E56BC1800AE3DFE /* ClipNote1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClipNote1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,30 @@
 		C03A039F1E54E0AC00AE3DFE /* PushViewLD */ = {
 			isa = PBXGroup;
 			children = (
+				C03A03B41E5657C600AE3DFE /* Resources */,
 				C03A03A01E54E0AC00AE3DFE /* AppDelegate.swift */,
 				C03A03A21E54E0AC00AE3DFE /* ViewController.swift */,
+				C03A03B21E54E15700AE3DFE /* View 2.swift */,
+				C03A03BB1E5684C400AE3DFE /* View 3.swift */,
 				C03A03A41E54E0AC00AE3DFE /* Main.storyboard */,
 				C03A03A71E54E0AC00AE3DFE /* Assets.xcassets */,
 				C03A03A91E54E0AC00AE3DFE /* LaunchScreen.storyboard */,
 				C03A03AC1E54E0AC00AE3DFE /* Info.plist */,
 			);
 			path = PushViewLD;
+			sourceTree = "<group>";
+		};
+		C03A03B41E5657C600AE3DFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C03A03F81E56BC1800AE3DFE /* BG0.JPG */,
+				C03A03F91E56BC1800AE3DFE /* board.png */,
+				C03A03FA1E56BC1800AE3DFE /* ClipNote1.png */,
+				C03A03B91E567DEF00AE3DFE /* math.png */,
+				C03A03B51E5657FD00AE3DFE /* zing-mp3.jpg */,
+				C03A03B71E56783400AE3DFE /* bg.JPG */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +156,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03A03B81E56783400AE3DFE /* bg.JPG in Resources */,
+				C03A03B61E5657FD00AE3DFE /* zing-mp3.jpg in Resources */,
 				C03A03AB1E54E0AC00AE3DFE /* LaunchScreen.storyboard in Resources */,
 				C03A03A81E54E0AC00AE3DFE /* Assets.xcassets in Resources */,
+				C03A03FC1E56BC1800AE3DFE /* board.png in Resources */,
 				C03A03A61E54E0AC00AE3DFE /* Main.storyboard in Resources */,
+				C03A03FB1E56BC1800AE3DFE /* BG0.JPG in Resources */,
+				C03A03FD1E56BC1800AE3DFE /* ClipNote1.png in Resources */,
+				C03A03BA1E567DEF00AE3DFE /* math.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03A03B31E54E15700AE3DFE /* View 2.swift in Sources */,
+				C03A03BC1E5684C400AE3DFE /* View 3.swift in Sources */,
 				C03A03A31E54E0AC00AE3DFE /* ViewController.swift in Sources */,
 				C03A03A11E54E0AC00AE3DFE /* AppDelegate.swift in Sources */,
 			);
